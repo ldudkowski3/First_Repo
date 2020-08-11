@@ -1,41 +1,105 @@
 nav {
     background-color: lightgray;
+    width: cover;
+    margin-top: 0px;
 }
 
 .navButton {
     display: inline-block;
-    width: 60px;
-    height: 30px;
+    width: 143px;
+    height: 50px;
     background-color: #555555;
     padding: center;
     color: white;
     text-align: center;
-    margin: 0 auto;
+    /* margin: 1px; */
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
 }
 
 h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
     font-size: 15px;
+}
+
+.Villains {
+    padding: center;
+}
+
+#Flash {
+    font-weight: bold;
+    padding: center;
 }
 
 .leftBar {
     display: block;
     float: left;
-    width: 30%;
-    height: 100%;
-    border-width: 1px;
-    border-color: darkslategray;
+    width: 29%;
+    height: 800px;
+    text-align: center;
 }
 
 .rightBar {
     display: block;
-    width: 70%;
-    height: 100%;
+    width: 71%;
+    height: 800px;
+    float: left;
+    /* background-color: darkred; */
 }
 
 .imgLogo {
     width: 200px;
+    float: centered;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.topLeft {
+    height: 300px;
+    display: block;
+    border: 3px;
+    border-color: darkslategrey;
+}
+
+.bottomLeft {
+    height:485px;
+}
+
+.attributeList {
+    text-align: left;
+    padding-left: 100px;
+}
+
+.attributeListTitle {
+    font-weight: bold;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.villainImg {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
     margin: 20px;
-    
+}
+
+.upperBox {
+    border: 5px;
+    margin: 20px;
+}
+
+.lowerBox {
+    border:5px;
+    margin: 20px;
 }
