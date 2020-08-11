@@ -1,6 +1,7 @@
 nav {
-    background-color: lightgray;
+    background-color: darkred;
     width: cover;
+    height: 60px;
     margin-top: 0px;
 }
 
@@ -8,16 +9,22 @@ nav {
     display: inline-block;
     width: 143px;
     height: 50px;
-    background-color: #555555;
+    margin-top: 4px;
+    border: .5px solid;
+    border-color: gold;
     padding: center;
-    color: white;
+    color: goldenrod;
+    font-weight: bolder;
     text-align: center;
-    /* margin: 1px; */
+}
+
+.titleHeading {
+    text-align: center;
 }
 
 .text{
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    /* font-weight: normal; */
 }
 
 h1 {
@@ -32,10 +39,6 @@ h3 {
     font-size: 15px;
 }
 
-.Villains {
-    padding: center;
-}
-
 #Flash {
     font-weight: bold;
     padding: center;
@@ -45,16 +48,17 @@ h3 {
     display: block;
     float: left;
     width: 29%;
-    height: 800px;
+    height: 780px;
     text-align: center;
+    border-left: 1px solid;
 }
 
 .rightBar {
     display: block;
-    width: 71%;
+    width: 70.8%;
     height: 800px;
     float: left;
-    /* background-color: darkred; */
+    border: 1px solid;
 }
 
 .imgLogo {
@@ -67,12 +71,15 @@ h3 {
 .topLeft {
     height: 300px;
     display: block;
-    border: 3px;
+    border-bottom: 1px solid;
+    /* border overlap? */
     border-color: darkslategrey;
 }
 
 .bottomLeft {
-    height:485px;
+    height:445px;
+    /* border: 2px solid; */
+    /* border-top: 0px; */
 }
 
 .attributeList {
@@ -89,17 +96,38 @@ h3 {
 
 .villainImg {
     display: inline-block;
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 225px;
     margin: 20px;
+    align-items: center;
+}
+
+.heroImg {
+    float: left;
+    /* padding-left: 20px; */
+    /* padding-bottom: 10px; */
+    width: 150px;
+    height: 225px;
+    margin-right: 20px; 
+    margin-top: 5px;
 }
 
 .upperBox {
-    border: 5px;
-    margin: 20px;
+    border: 1px solid;
+    width: 630px;
+    min-height: 300px;
+    padding: 20px;
+    border-color: darkslategray;
+    margin: 30px;
+    margin-left: 150px;
 }
 
 .lowerBox {
-    border:5px;
+    width: 620px;
+    padding-left: 30px;
+    border: 1px solid;
+    border-color: darkslategray;
     margin: 20px;
+    margin-left: 150px;
+ 
 }
