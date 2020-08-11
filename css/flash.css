@@ -50,7 +50,7 @@ h3 {
     width: 29%;
     height: 780px;
     text-align: center;
-    border-left: 1px solid;
+    /* border-left: 1px solid; */
 }
 
 .rightBar {
@@ -58,7 +58,7 @@ h3 {
     width: 70.8%;
     height: 800px;
     float: left;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .imgLogo {
